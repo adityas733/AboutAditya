@@ -1,0 +1,370 @@
+# Now let's create the modified HTML file with the education section and third interest
+# The education section details are in the comments in the original file
+
+modified_html = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Malhotra - Product Manager & Strategist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="nav-brand">
+                    <span class="nav-name">Aditya Malhotra</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#experience" class="nav-link">Experience</a>
+                    <a href="#education" class="nav-link">Education</a>
+                    <a href="#achievements" class="nav-link">Achievements</a>
+                    <a href="#interests" class="nav-link">Interests</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-gradient"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Aditya Malhotra</h1>
+                    <h2 class="hero-subtitle">Product Manager & Strategist</h2>
+                    <p class="hero-tagline">Transforming ideas into impactful products through strategic thinking and user-centric design</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn--primary btn--lg">Get In Touch</a>
+                        <a href="#experience" class="btn btn--outline btn--lg">View Experience</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="headshot-container">
+                        <img src="./Headshot.jpg" alt="Aditya Malhotra - Professional Headshot" class="headshot" loading="eager">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Product Manager with strategic consulting background</p>
+            </div>
+            <div class="about-content">
+                <div class="about-card">
+                    <h3>Professional Background</h3>
+                    <p>Experienced Product Manager currently at Airtel Digital with a strong background in Strategy Consulting at Bain & Company and EdTech at Sunstone Eduversity. Passionate about building products that solve real user problems and drive business growth through data-driven insights and innovative solutions.</p>
+                </div>
+                <div class="about-card">
+                    <h3>Personal Life</h3>
+                    <p>Married to a brilliant PhD in Electronics who specializes in semiconductor chip design. Together we explore the intersection of technology and innovation, bringing diverse perspectives to problem-solving. When not working, I'm cycling new routes, experimenting in the kitchen, or exploring new destinations around the world.</p>
+                </div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-item">Product Strategy & Roadmap</div>
+                <div class="skill-item">User Experience Design</div>
+                <div class="skill-item">Data Analysis & Insights</div>
+                <div class="skill-item">Agile & Scrum Methodologies</div>
+                <div class="skill-item">Strategic Planning & Consulting</div>
+                <div class="skill-item">Stakeholder Management</div>
+                <div class="skill-item">Market Research & Analysis</div>
+                <div class="skill-item">Cross-functional Leadership</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Professional Experience</h2>
+                <p class="section-subtitle">Building products and strategies across industries</p>
+            </div>
+            <div class="experience-timeline">
+                <div class="experience-item current">
+                    <div class="experience-logo">
+                        <img src="./Airtel_Thumbnail.png" alt="Airtel Digital Logo" class="company-logo">
+                    </div>
+                    <div class="experience-content">
+                        <div class="experience-badge current-badge">Current</div>
+                        <h3 class="experience-role">Product Manager</h3>
+                        <h4 class="experience-company">Airtel Digital</h4>
+                        <p class="experience-description">Leading product strategy and development for digital entertainment platform at India's leading telecommunications company</p>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-logo">
+                        <img src="./Bain_Thumbnail.png" alt="Bain & Company Logo" class="company-logo">
+                    </div>
+                    <div class="experience-content">
+                        <h3 class="experience-role">Consultant</h3>
+                        <h4 class="experience-company">Bain & Company</h4>
+                        <p class="experience-description">Provided strategic consulting solutions for Fortune 500 clients across multiple industries</p>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-logo">
+                        <img src="./Sunstone_Thumbnail.png" alt="Sunstone Eduversity Logo" class="company-logo">
+                    </div>
+                    <div class="experience-content">
+                        <h3 class="experience-role">Strategy & Product</h3>
+                        <h4 class="experience-company">Sunstone Eduversity</h4>
+                        <p class="experience-description">Drove product strategy and growth initiatives in the education technology sector</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education Overview</h2>
+                <p class="section-subtitle">Curious Engineer & an MBA</p>
+            </div>
+            <div class="education-timeline">
+                <div class="education-item">
+                    <div class="education-logo">
+                        <img src="./IIMS_Thumbnail.png" alt="IIM Shillong Logo" class="college-logo">
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-degree">Post Graduation</h3>
+                        <h4 class="education-institution">IIM Shillong</h4>
+                        <p class="education-description">Master of Business Administration in General Management</p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-logo">
+                        <img src="./DTU_Thumbnail.png" alt="DTU Logo" class="college-logo">
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-degree">Graduation</h3>
+                        <h4 class="education-institution">Delhi Technological University</h4>
+                        <p class="education-description">Bachelor of Technology in Electrical & Electronics Engineering</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Key Achievements</h2>
+                <p class="section-subtitle">Recognition for strategic excellence and innovation</p>
+            </div>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-carousel" data-carousel="mahindra">
+                        <div class="carousel-container">
+                            <div class="carousel-track">
+                                <div class="carousel-slide active">
+                                    <img src="./Mahindra_War_Room_1.jpeg" alt="Mahindra War Room Recognition 1" class="achievement-image">
+                                </div>
+                                <div class="carousel-slide">
+                                    <img src="./Mahindra_War_Room_2.jpeg" alt="Mahindra War Room Recognition 2" class="achievement-image">
+                                </div>
+                            </div>
+                            <button class="carousel-btn carousel-prev" data-direction="prev" aria-label="Previous image">‹</button>
+                            <button class="carousel-btn carousel-next" data-direction="next" aria-label="Next image">›</button>
+                            <div class="carousel-dots">
+                                <button class="dot active" data-slide="0" aria-label="Go to slide 1"></button>
+                                <button class="dot" data-slide="1" aria-label="Go to slide 2"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="achievement-content">
+                        <h3 class="achievement-title">Mahindra War Room Winner</h3>
+                        <p class="achievement-description">Recognition for strategic problem-solving and innovative business solutions in national competition</p>
+                        <div class="achievement-links">
+                            <a href="https://youtube.com/clip/Ugkxfb_unb8bm5vRoaD9RcD7UJxlxxuj0bdx?si=mKh5V5QZB7d63oy4" target="_blank" class="btn btn--outline btn--sm">Watch Video</a>
+                            <a href="https://unstop.com/awards/o/indian-institute-of-management-iim-shillong-1082/2020" target="_blank" class="btn btn--outline btn--sm">View Awards</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="achievement-card single">
+                    <div class="achievement-image-single">
+                        <img src="./Additional_Recognition_1.jpeg" alt="Additional Recognition Certificate" class="achievement-image">
+                    </div>
+                    <div class="achievement-content">
+                        <h3 class="achievement-title">Additional Recognition</h3>
+                        <p class="achievement-description">Multiple awards and recognitions for academic and professional excellence</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Personal Interests Section -->
+    <section id="interests" class="interests">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Personal Interests</h2>
+                <p class="section-subtitle">Life beyond work - passions that drive me</p>
+            </div>
+            <div class="interests-grid">
+                <div class="interest-card">
+                    <div class="interest-carousel" data-carousel="cycling">
+                        <div class="carousel-container">
+                            <div class="carousel-track">
+                                <div class="carousel-slide active">
+                                    <img src="./Cycling_1.png" alt="Cycling Adventure 1" class="interest-image">
+                                </div>
+                                <div class="carousel-slide">
+                                    <img src="./Cycling_4.png" alt="Cycling Adventure 2" class="interest-image">
+                                </div>
+                                <div class="carousel-slide">
+                                    <img src="./Cycling_3.png" alt="Cycling Adventure 3" class="interest-image">
+                                </div>
+                                <div class="carousel-slide">
+                                    <img src="./Cycling_2.png" alt="Cycling Adventure 4" class="interest-image">
+                                </div>
+                            </div>
+                            <button class="carousel-btn carousel-prev" data-direction="prev" aria-label="Previous image">‹</button>
+                            <button class="carousel-btn carousel-next" data-direction="next" aria-label="Next image">›</button>
+                            <div class="carousel-dots">
+                                <button class="dot active" data-slide="0" aria-label="Go to slide 1"></button>
+                                <button class="dot" data-slide="1" aria-label="Go to slide 2"></button>
+                                <button class="dot" data-slide="2" aria-label="Go to slide 3"></button>
+                                <button class="dot" data-slide="3" aria-label="Go to slide 4"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="interest-content">
+                        <h3 class="interest-title">Cycling Enthusiast</h3>
+                        <p class="interest-description">Passionate cyclist exploring new routes and pushing personal limits. Regular tracking on Strava with consistent progress across Delhi and surrounding areas.</p>
+                    </div>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-carousel" data-carousel="travel">
+                        <div class="carousel-container">
+                            <div class="carousel-track">
+                                <div class="carousel-slide active">
+                                    <img src="./Well_Travelled_3.jpg" alt="Travel Experience 1" class="interest-image">
+                                </div>
+                                <div class="carousel-slide">
+                                    <img src="./Well_Travelled_2.jpg" alt="Travel Experience 2" class="interest-image">
+                                </div>
+                                <div class="carousel-slide">
+                                    <img src="./Well_Travelled_1.jpg" alt="Travel Experience 3" class="interest-image">
+                                </div>
+                                <div class="carousel-slide">
+                                    <img src="./Well_Travelled_4.jpg" alt="Travel Experience 4" class="interest-image">
+                                </div>
+                                <div class="carousel-slide">
+                                    <img src="./Well_Travelled_5.jpg" alt="Travel Experience 5" class="interest-image">
+                                </div>
+                            </div>
+                            <button class="carousel-btn carousel-prev" data-direction="prev" aria-label="Previous image">‹</button>
+                            <button class="carousel-btn carousel-next" data-direction="next" aria-label="Next image">›</button>
+                            <div class="carousel-dots">
+                                <button class="dot active" data-slide="0" aria-label="Go to slide 1"></button>
+                                <button class="dot" data-slide="1" aria-label="Go to slide 2"></button>
+                                <button class="dot" data-slide="2" aria-label="Go to slide 3"></button>
+                                <button class="dot" data-slide="3" aria-label="Go to slide 4"></button>
+                                <button class="dot" data-slide="4" aria-label="Go to slide 5"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="interest-content">
+                        <h3 class="interest-title">Well Travelled</h3>
+                        <p class="interest-description">Exploring diverse cultures and destinations around the world and within India. Each journey brings new perspectives and experiences that enrich both personal and professional life.</p>
+                    </div>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-carousel" data-carousel="placeholder">
+                        <div class="carousel-container">
+                            <div class="carousel-track">
+                                <div class="carousel-slide active">
+                                    <img src="./Placeholder_Interest_1.jpg" alt="Third Interest Placeholder 1" class="interest-image">
+                                </div>
+                                <div class="carousel-slide">
+                                    <img src="./Placeholder_Interest_2.jpg" alt="Third Interest Placeholder 2" class="interest-image">
+                                </div>
+                                <div class="carousel-slide">
+                                    <img src="./Placeholder_Interest_3.jpg" alt="Third Interest Placeholder 3" class="interest-image">
+                                </div>
+                            </div>
+                            <button class="carousel-btn carousel-prev" data-direction="prev" aria-label="Previous image">‹</button>
+                            <button class="carousel-btn carousel-next" data-direction="next" aria-label="Next image">›</button>
+                            <div class="carousel-dots">
+                                <button class="dot active" data-slide="0" aria-label="Go to slide 1"></button>
+                                <button class="dot" data-slide="1" aria-label="Go to slide 2"></button>
+                                <button class="dot" data-slide="2" aria-label="Go to slide 3"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="interest-content">
+                        <h3 class="interest-title">Third Interest Placeholder</h3>
+                        <p class="interest-description">This is a placeholder section for your third personal interest. You can edit this title and description to add your own content and details about your hobby or passion.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-subtitle">Available for product management mentoring, strategic consulting, and senior leadership opportunities</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-thumbnail">
+                        <img src="./Email_Thumbnail.png" alt="Email Contact Icon" class="contact-icon">
+                    </div>
+                    <div class="contact-content">
+                        <h3 class="contact-title">Email</h3>
+                        <a href="mailto:Adityas733@gmail.com?subject=Request%20for%20....&body=Hello%20Aditya%2C%0AWant%20to%20discuss...." class="contact-link">adityas733@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-thumbnail">
+                        <img src="./LinkedIn_Thumbnail.png" alt="LinkedIn Profile Icon" class="contact-icon">
+                    </div>
+                    <div class="contact-content">
+                        <h3 class="contact-title">LinkedIn</h3>
+                        <a href="https://www.linkedin.com/in/adymalhotra/" target="_blank" class="contact-link">Connect on LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Aditya Malhotra. All rights reserved.</p>
+                <p>Product Manager & Strategist based in Gurugram, HR</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>'''
+
+# Save the modified HTML file
+with open('index_revised.html', 'w', encoding='utf-8') as file:
+    file.write(modified_html)
+
+print("Modified HTML file created successfully!")
+print("\nChanges made:")
+print("1. Added Education section between Experience and Achievements")
+print("2. Added Education link to navigation")
+print("3. Added third interest card with placeholder content")
+print("4. All existing functionality preserved")
