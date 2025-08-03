@@ -1000,6 +1000,68 @@ select.form-control {
   margin-bottom: var(--space-12);
 }
 
+
+/* Education Section */
+.education {
+    padding: var(--space-32) 0;
+    background: var(--color-bg-3);
+}
+
+.education-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-24);
+}
+
+.education-item {
+    display: flex;
+    gap: var(--space-24);
+    background: var(--color-surface);
+    padding: var(--space-24);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--color-card-border);
+    box-shadow: var(--shadow-sm);
+    transition: transform var(--duration-normal) var(--ease-standard);
+}
+
+.education-item:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
+}
+
+.education-logo {
+    flex-shrink: 0;
+}
+
+.college-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border-radius: var(--radius-base);
+    background: var(--color-white);
+    padding: var(--space-8);
+    border: 1px solid var(--color-border);
+    display: block;
+}
+
+.education-degree {
+    font-size: var(--font-size-xl);
+    margin: var(--space-8) 0;
+    color: var(--color-primary);
+}
+
+.education-institution {
+    font-size: var(--font-size-lg);
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-12);
+}
+
+.education-description {
+    color: var(--color-text-secondary);
+    line-height: var(--line-height-normal);
+}
+
+
 /* Achievements Section */
 .achievements {
   padding: var(--space-32) 0;
