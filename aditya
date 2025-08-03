@@ -41,7 +41,7 @@
                 </div>
                 <div class="hero-image">
                     <div class="headshot-container">
-                        <img src="./Headshot.jpg" alt="Aditya Malhotra - Professional Headshot" class="headshot" loading="eager">
+                        <img src=".main/Headshot.jpg" alt="Aditya Malhotra - Professional Headshot" class="headshot" loading="eager">
                     </div>
                 </div>
             </div>
@@ -134,10 +134,10 @@
                         <div class="carousel-container">
                             <div class="carousel-track">
                                 <div class="carousel-slide active">
-                                    <img src="./Mahindra_War_Room_1.jpg" alt="Mahindra War Room Recognition 1" class="achievement-image">
+                                    <img src="./main/Mahindra_War_Room_1.jpeg" alt="Mahindra War Room Recognition 1" class="achievement-image">
                                 </div>
                                 <div class="carousel-slide">
-                                    <img src="./Mahindra_War_Room_2.jpg" alt="Mahindra War Room Recognition 2" class="achievement-image">
+                                    <img src="./main/Mahindra_War_Room_2.jpeg" alt="Mahindra War Room Recognition 2" class="achievement-image">
                                 </div>
                             </div>
                             <button class="carousel-btn carousel-prev" data-direction="prev" aria-label="Previous image">‹</button>
@@ -159,7 +159,7 @@
                 </div>
                 <div class="achievement-card single">
                     <div class="achievement-image-single">
-                        <img src="./Additional_Recognition_1.jpg" alt="Additional Recognition Certificate" class="achievement-image">
+                        <img src="./main/Additional_Recognition_1.jpeg" alt="Additional Recognition Certificate" class="achievement-image">
                     </div>
                     <div class="achievement-content">
                         <h3 class="achievement-title">Additional Recognition</h3>
@@ -183,16 +183,16 @@
                         <div class="carousel-container">
                             <div class="carousel-track">
                                 <div class="carousel-slide active">
-                                    <img src="./Cycling_1.jpg" alt="Cycling Adventure 1" class="interest-image">
+                                    <img src="./main/Cycling_1.png" alt="Cycling Adventure 1" class="interest-image">
                                 </div>
                                 <div class="carousel-slide">
-                                    <img src="./Cycling_2.jpg" alt="Cycling Adventure 2" class="interest-image">
+                                    <img src="./main/Cycling_2.png" alt="Cycling Adventure 2" class="interest-image">
                                 </div>
                                 <div class="carousel-slide">
-                                    <img src="./Cycling_3.jpg" alt="Cycling Adventure 3" class="interest-image">
+                                    <img src="./main/Cycling_3.png" alt="Cycling Adventure 3" class="interest-image">
                                 </div>
                                 <div class="carousel-slide">
-                                    <img src="./Cycling_4.jpg" alt="Cycling Adventure 4" class="interest-image">
+                                    <img src="./main/Cycling_4.png" alt="Cycling Adventure 4" class="interest-image">
                                 </div>
                             </div>
                             <button class="carousel-btn carousel-prev" data-direction="prev" aria-label="Previous image">‹</button>
@@ -215,10 +215,10 @@
                         <div class="carousel-container">
                             <div class="carousel-track">
                                 <div class="carousel-slide active">
-                                    <img src="./Well_Travelled_1.jpeg" alt="Travel Experience 1" class="interest-image">
+                                    <img src="./main/Well_Travelled_1.jpg" alt="Travel Experience 1" class="interest-image">
                                 </div>
                                 <div class="carousel-slide">
-                                    <img src="./Well_Travelled_2.jpeg" alt="Travel Experience 2" class="interest-image">
+                                    <img src="./main/Well_Travelled_2.jpg" alt="Travel Experience 2" class="interest-image">
                                 </div>
                                 <div class="carousel-slide">
                                     <img src="./Well_Travelled_3.jpeg" alt="Travel Experience 3" class="interest-image">
