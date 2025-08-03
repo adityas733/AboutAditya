@@ -264,12 +264,12 @@
                     </div>
                     <div class="contact-content">
                         <h3 class="contact-title">Email</h3>
-                        <a href="mailto:adityas733@gmail.com" class="contact-link">adityas733@gmail.com</a>
+                        <a href="mailto:Adityas733@gmail.com?subject=Request%20for%20....&body=Hello%20Aditya%2C%0AWant%20to%20discuss...." class="contact-link">adityas733@gmail.com</a>
                     </div>
                 </div>
                 <div class="contact-card">
                     <div class="contact-thumbnail">
-                        <img src="./LinkedIn_Thumbnail.jpg" alt="LinkedIn Profile Icon" class="contact-icon">
+                        <img src="./main/LinkedIn_Thumbnail.png" alt="LinkedIn Profile Icon" class="contact-icon">
                     </div>
                     <div class="contact-content">
                         <h3 class="contact-title">LinkedIn</h3>
