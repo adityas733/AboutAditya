@@ -1001,59 +1001,59 @@ select.form-control {
 }
 
 
-/* Education Section */
+/* Education Section - Styled like Achievements Section */
 .education {
     padding: var(--space-32) 0;
     background: var(--color-bg-3);
 }
 
-.education-timeline {
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-24);
+.education-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: var(--space-32);
 }
 
-.education-item {
-    display: flex;
-    gap: var(--space-24);
+.education-card {
     background: var(--color-surface);
-    padding: var(--space-24);
     border-radius: var(--radius-lg);
     border: 1px solid var(--color-card-border);
     box-shadow: var(--shadow-sm);
+    overflow: hidden;
     transition: transform var(--duration-normal) var(--ease-standard);
 }
 
-.education-item:hover {
+.education-card:hover {
     transform: translateY(-4px);
     box-shadow: var(--shadow-md);
 }
 
-.education-logo {
-    flex-shrink: 0;
+.education-image-single {
+    height: 300px;
+    overflow: hidden;
 }
 
-.college-logo {
-    width: 80px;
-    height: 80px;
-    object-fit: contain;
-    border-radius: var(--radius-base);
-    background: var(--color-white);
-    padding: var(--space-8);
-    border: 1px solid var(--color-border);
+.education-image-single img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     display: block;
 }
 
-.education-degree {
+.education-content {
+    padding: var(--space-24);
+}
+
+.education-title {
     font-size: var(--font-size-xl);
-    margin: var(--space-8) 0;
     color: var(--color-primary);
+    margin-bottom: var(--space-8);
 }
 
 .education-institution {
     font-size: var(--font-size-lg);
     color: var(--color-text-secondary);
     margin-bottom: var(--space-12);
+    font-weight: var(--font-weight-medium);
 }
 
 .education-description {
